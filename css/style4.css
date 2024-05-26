@@ -1,0 +1,297 @@
+main {
+  background: #fffefe;
+}
+@media screen and (min-width: 1920px) {
+  h2 {
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-style: normal;
+    font-weight: 300;
+    word-wrap: break-word;
+  }
+  .result {
+    display: grid;
+    height: 85vh;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .result .bird {
+    width: 50%;
+    height: 50%;
+    margin-left: 70%;
+  }
+  .result .number {
+    color: var(--brown, #59443f);
+    font-family: SchoolBook;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110px;
+    text-align: center;
+  }
+
+  .result .help {
+    font-style: normal;
+    font-size: 2em;
+    text-align: left;
+  }
+
+  .quality .why {
+    text-align: center;
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .quality .containergrid {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 23%);
+    font-size: 100px;
+    grid-row-gap: 70px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .quality .containergrid .el-4 {
+    color: var(--brown, #59443f);
+    font-family: Futura New;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 15vw;
+    margin-bottom: 10%;
+  }
+  .quality .containergrid .el-4 .icons {
+    width: 3vw;
+    height: 7vh;
+  }
+  .quality .containergrid .el-4 .textarea {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 10%;
+    grid-column-gap: 15px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+  h2 {
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-style: normal;
+    font-weight: 300;
+  }
+  .result {
+    display: grid;
+    height: 85vh;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .result .bird {
+    width: 50%;
+    height: 50%;
+    margin-left: 70%;
+  }
+  .result .number {
+    color: var(--brown, #59443f);
+    font-family: SchoolBook;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110px;
+    text-align: center;
+  }
+
+  .result .help {
+    font-style: normal;
+    font-size: 2em;
+    text-align: left;
+  }
+
+  .quality .why {
+    text-align: center;
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .quality .containergrid {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 23%);
+    font-size: 100px;
+    grid-row-gap: 70px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .quality .containergrid .el-4 {
+    color: var(--brown, #59443f);
+    font-family: Futura New;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 30vw;
+    margin-bottom: 18vh;
+  }
+  .quality .containergrid .el-4 .icons {
+    width: 4vw;
+    height: 7vh;
+  }
+  .quality .containergrid .el-4 .textarea {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 10%;
+    grid-column-gap: 10px;
+    width: 28vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  h2 {
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-style: normal;
+    font-weight: 300;
+    height: 7vh;
+  }
+  .result {
+    display: grid;
+    height: 85vh;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .result .bird {
+    width: 40%;
+    height: 40%;
+    margin-left: 70%;
+  }
+  .result .number {
+    color: var(--brown, #59443f);
+    font-family: SchoolBook;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110px;
+    text-align: center;
+  }
+
+  .result .help {
+    font-style: normal;
+    font-size: 2em;
+    text-align: left;
+  }
+
+  .quality .why {
+    text-align: center;
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .quality .containergrid {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 30%);
+    font-size: 100px;
+    grid-row-gap: 70px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+  }
+
+  .quality .containergrid .el-4 {
+    color: var(--brown, #59443f);
+    font-family: Futura New;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 27vw;
+  }
+  .quality .containergrid .el-4 .icons {
+    width: 4vw;
+    height: 5vh;
+  }
+  .quality .containergrid .el-4 .textarea {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-style: normal;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .result {
+    display: grid;
+    height: 85vh;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .result .bird {
+    width: 40%;
+    height: 40%;
+    margin-left: 70%;
+  }
+  .result .number {
+    color: var(--brown, #59443f);
+    font-family: SchoolBook;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110px;
+    text-align: center;
+  }
+
+  .result .help {
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .quality .why {
+    text-align: center;
+    color: var(--text, #080606);
+    font-family: SchoolBook;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .quality .containergrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 100px;
+    margin: 10%;
+  }
+
+  .quality .containergrid .el-4 {
+    color: var(--brown, #59443f);
+    font-family: Futura New;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .quality .containergrid .el-4 .icons {
+    width: 8vw;
+    height: 7vh;
+  }
+  .quality .containergrid .el-4 .textarea {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 5%;
+  }
+}
